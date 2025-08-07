@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const style = document.createElement('style');
             style.textContent = `
                 body {
-                    background-image: "background.gif";
+                    background-image: url("./background.gif");
                     background-size: cover;
                     background-position: center;
                     background-repeat: no-repeat;
